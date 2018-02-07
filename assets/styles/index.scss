@@ -53,6 +53,14 @@ body {
   }
 
   canvas {
+    opacity: 0;
+    transition: 2s;
     clip-path: polygon(55% 16%, 67% 29%, 77% 32%, 68% 57%, 93% 51%, 82% 66%, 56% 70%, 48% 67%, 19% 68%, 7% 59%, 26% 48%, 32% 26%, 40% 19%);
+  }
+
+  &:hover {
+    canvas {
+      opacity: 1;
+    }
   }
 }
