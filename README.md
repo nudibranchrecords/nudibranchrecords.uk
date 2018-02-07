@@ -1,7 +1,7 @@
 Nudibranch Website
 ===========
 
-[nudibranch.uk](http://nudibranch.uk/)
+[nudibranchrecords.uk](http://nudibranchrecords.uk/)
 
 ## Setup
 Install dependencies
