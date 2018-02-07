@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      [am-Logo] {
+        opacity: 0;
+      }
+    </style>
 </head>
 <body>
   <div am-All>
-    <div data-logo am-Logo>
+    <a data-logo am-Logo href="https://twitter.com/NudibranchMusic">
       <canvas></canvas>
-      <img src="/assets/images/logo.svg"
-    </div>
+      <img src="/assets/images/logo.svg" alt="Nudibranch">
+    </a>
   </div>
 </body>
 </html>
