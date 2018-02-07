@@ -10,7 +10,3 @@ sandbox.load(frag)
 window.setTimeout(() => {
   document.body.classList.add('is-loaded')
 }, 100)
-
-window.setTimeout(() => {
-  document.body.classList.add('no-transition')
-}, 10000)
